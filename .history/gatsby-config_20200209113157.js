@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Vsolutions`,
-    description: `A Vsolutions é uma Empresa de Desenvolvimento Web Caboverdiana, que desenvolve soluções criativas , inovadoras e profissionais para os seus clientes..`,
-    author: `@vsolutions`,
+    title: `Gatsby Default Starter`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
