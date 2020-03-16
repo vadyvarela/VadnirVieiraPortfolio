@@ -85,7 +85,7 @@ export const ProfileDesc = styled.p`
 export const marginmY = styled.div`
   margin: 20px 0;
   ${media.lessThan("large")`
-    text-align:center;
+    text-ali
   `}
 `
 

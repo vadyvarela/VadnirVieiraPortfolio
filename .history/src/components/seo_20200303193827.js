@@ -29,7 +29,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description
 
   const url = site.siteMetadata.siteUrl
-  const ogImage = `${url}${image || "/assets/img/cover.png" }`
+  const ogImage `${siteUrl}${image || "/assets/img/cover.png" }`
 
   return (
     <Helmet
@@ -57,7 +57,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:type`,
-          content: `website`, 
+          content: `website`,
         },
         {
           name: `twitter:card`,
