@@ -29,7 +29,7 @@ const hibility = [
     },
     {
         name: "PHP",
-        value: '90',
+        value: '95',
     },
     {
         name: "MYSQL",
@@ -37,7 +37,7 @@ const hibility = [
     },
     {
         name: "NOSQL",
-        value: '85',
+        value: '80',
     },
     {
         name: "SEO",

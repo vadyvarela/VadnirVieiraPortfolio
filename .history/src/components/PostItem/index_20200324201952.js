@@ -5,6 +5,10 @@ import * as Z from "../ListWrapper/styled"
 
 const PostItem = ({slug, category, date, timeToRead, title, description, background}) => (
     <>
+        <S.Title>Meus Posts
+            <span> Uma longa caminhada começa com o primeiro passo "Lao Tsé" </span>
+        </S.Title>
+    
         <Z.ListWrapper>
             <S.PostItemLink>
                 <S.PostItemWrapper to={slug}>

@@ -45,7 +45,6 @@ const BlogPage = () => {
         }) => (
           <BlogPost
             slug="/about/"
-            background={background}
             category={category}
             date={date}
             timeToRead={timeToRead}

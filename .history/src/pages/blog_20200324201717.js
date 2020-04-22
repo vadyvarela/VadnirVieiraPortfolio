@@ -27,16 +27,13 @@ const BlogPage = () => {
         }
       }
     `)
-  
+  }
 
   const PostList = allMarkdownRemark.edges
 
   return (
     <Layout>
       <SEO title="Meu Blog" />
-      <h2 class="supertitle">Meus Posts
-        <span> Uma longa caminhada começa com o primeiro passo "Lao Tsé" </span>
-      </h2>
       {PostList.map(({ 
         node: { 
             frontmatter: { background, category, date, description, title },
@@ -45,7 +42,6 @@ const BlogPage = () => {
         }) => (
           <BlogPost
             slug="/about/"
-            background={background}
             category={category}
             date={date}
             timeToRead={timeToRead}
@@ -56,6 +52,6 @@ const BlogPage = () => {
       
     </Layout> 
   )
-}
+)
 
 export default BlogPage

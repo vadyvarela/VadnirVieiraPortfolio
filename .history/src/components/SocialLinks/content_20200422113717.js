@@ -7,12 +7,12 @@ const links = [
     {
         label: "Instagram",
         desc: "Perfil social",
-        url: "https://www.instagram.com/vady_bmx/",
+        url: "https://instagran.com/vsolutions",
     },
     {
         label: "Linkedin",
         desc: "Perfil Profissional",
-        url: "https://www.linkedin.com/in/vadnir-vieira",
+        url: "https://linkedin.com/vsolutions",
     },
     {
         label: "Github",

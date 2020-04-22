@@ -3,7 +3,7 @@ module.exports = {
     title: `Vadnir Vieira`,
     age: '24 Anos',
     profession: 'Fullstack Developer',
-    description: `Sou completamente viciado e apaixonado pelo mundo Web. Trabalho com Desenvolvimento Web, SEO e Divulgação. Desenvolvo projetos voltados para o posicionamento e fortalecimento do cliente na web, através da análise concorrencial e das melhores estratégias, utilizando sempre tecnologias avançadas e ideias inovadoras.`,
+    description: `Sou completamente viciado e apaixonado pelo mundo Web. Trabalho com Desenvolvimento web, SEO e Divulgação. Desenvolvo projetos voltados para o posicionamento e fortalecimento do cliente na web, através da análise concorrencial e das melhores estratégias, utilizando sempre tecnologias avançadas e ideias inovadoras.`,
     author: `@vadyvarela`,
     siteUrl: `https://vadnirvieira.netlify.com/`
   },

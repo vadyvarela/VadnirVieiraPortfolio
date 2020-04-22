@@ -2,7 +2,6 @@ import React from 'react'
 import habilitys from './data'
 import { Github } from 'styled-icons/fa-brands/Github'
 import LogosCompany from './logos'
-import LogosCompany1 from './logos2'
 import * as S from './styles' 
 
 const Hability = () => (
@@ -14,7 +13,7 @@ const Hability = () => (
       <div class="column is-half">
         <S.Company>
           <S.IconCompany>
-            <LogosCompany/>
+            {/* <LogosCompany/> */}
           </S.IconCompany>
           <S.Desc>
             <h4> 2018 - 2019 ( FullStack Developer ) </h4>
@@ -25,7 +24,7 @@ const Hability = () => (
       <div class="column is-half">
         <S.Company>
           <S.IconCompany>
-            <LogosCompany1/>
+            {/* <LogosCompany/> */}
           </S.IconCompany>
           <S.Desc>
             <h4> 2019 - 2020 ( FullStack Developer ) </h4>

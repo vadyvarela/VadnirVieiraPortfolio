@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import BlogPost from "../components/PostItem"
 
 
-const BlogPage = () => {
+const BlogPage = () => (
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
       query PostList {
@@ -26,36 +26,32 @@ const BlogPage = () => {
           }
         }
       }
-    `)
-  
+    `
+  )
 
   const PostList = allMarkdownRemark.edges
 
   return (
     <Layout>
       <SEO title="Meu Blog" />
-      <h2 class="supertitle">Meus Posts
-        <span> Uma longa caminhada começa com o primeiro passo "Lao Tsé" </span>
-      </h2>
-      {PostList.map(({ 
-        node: { 
+      {PostList.map(({ node: 
+          { 
             frontmatter: { background, category, date, description, title },
             timeToRead
           } 
-        }) => (
-          <BlogPost
-            slug="/about/"
-            background={background}
-            category={category}
-            date={date}
-            timeToRead={timeToRead}
-            title={title}
-            description={description}
-          />
-        ))}
+        }))
+      }
+        <BlogPost
+          slug="/about/"
+          category="Misc"
+          date="30 de Julho de 2019"
+          timeToRead="5"
+          title="Diga não ao Medium: tenha sua própria plataforma"
+          description="Algumas razões para você ter sua própria plataforma ao invés de soluções como o Medium."
+        />
       
     </Layout> 
   )
-}
+)
 
 export default BlogPage

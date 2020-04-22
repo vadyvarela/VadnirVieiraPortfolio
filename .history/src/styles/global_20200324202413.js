@@ -79,22 +79,6 @@ progress::-webkit-progress-bar {
   background: blue;
 }
 
-.supertitle {
-	padding: 20px;
-    color: #fff;
-    font-size: 3em;
-    text-align:center;
-    font-weight: 400;
-    span {
-        padding: 5px;
-        display:block;
-        color: #aaa;
-        font-size: 0.3em;
-        text-align:center;
-        font-weight: 300;
-    }
-}
-
 body.dark {
 	--header: #101010;
 	--footer: #101010;

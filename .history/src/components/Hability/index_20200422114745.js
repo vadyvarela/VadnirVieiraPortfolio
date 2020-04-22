@@ -2,7 +2,7 @@ import React from 'react'
 import habilitys from './data'
 import { Github } from 'styled-icons/fa-brands/Github'
 import LogosCompany from './logos'
-import LogosCompany1 from './logos2'
+import LogosCompany1 from './logos1'
 import * as S from './styles' 
 
 const Hability = () => (
